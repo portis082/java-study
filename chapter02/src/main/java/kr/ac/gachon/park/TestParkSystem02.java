@@ -11,7 +11,6 @@ public class TestParkSystem02 {
 		
 		Car c3 = new Pocrain();
 		ParkSystem02.park(c3);
-
 	}
 
 }

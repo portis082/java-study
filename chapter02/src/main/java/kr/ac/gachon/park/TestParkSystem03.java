@@ -14,7 +14,6 @@ public class TestParkSystem03 {
 		
 		Parkable p = new AirPlane();
 		ParkSystem03.park(p);
-
 	}
 
 }
