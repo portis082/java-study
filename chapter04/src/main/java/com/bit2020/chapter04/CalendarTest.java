@@ -9,7 +9,7 @@ public class CalendarTest {
 		printDate(cal);
 		
 		cal.set(Calendar.YEAR, 2021);
-		cal.set(Calendar.MONTH, 11); //month(12)-1
+		cal.set(Calendar.MONTH, 11);  // month(12) - 1
 		cal.set(Calendar.DATE, 25);
 		printDate(cal);
 		
@@ -19,8 +19,8 @@ public class CalendarTest {
 	}
 
 	public static void printDate(Calendar cal) {
-		String[] days = {"일", "월", "화", "수", "목", "금", "토"};
-		//년
+		String[] days = {"일", "월", "화", "수", "목", "금", "토"}; 
+		//년도
 		int year = cal.get(Calendar.YEAR);
 		
 		//월(0~11, +1)
@@ -38,17 +38,16 @@ public class CalendarTest {
 		//분
 		int minute = cal.get(Calendar.MINUTE);
 		
-		//초
+		//초 
 		int second = cal.get(Calendar.SECOND);
 		
 		System.out.println(
-				year + "년 " +
-				(month + 1) + "월 " +
-				date + "일 " +
-				days[day-1] + "요일 " + 
-				hour + "시" +
-				minute + "분" +
-				second + "초");
+			year + "년 " +
+			(month + 1) + "월 " +
+			date + "일 " +
+			days[day-1] + "요일 " + 
+			hour + "시" +
+			minute + "분" +
+			second + "초");
 	}
-
 }

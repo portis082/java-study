@@ -9,11 +9,11 @@ public class HashMapTest {
 	public static void main(String[] args) {
 		Map<String, Integer> map = new HashMap<>();
 		
-		map.put("one" , 1); //auto boxing
-		map.put("two" , 2);
-		map.put("three" , 3);
+		map.put("one", 1); // auto boxing
+		map.put("two", 2);
+		map.put("three", 3);
 		
-		int i = map.get(new String("two")); //auto unboxing
+		int i = map.get(new String("two")); // auto unboxing
 		int j = map.get("one");
 		System.out.println(i + ":" + j);
 		
@@ -26,6 +26,7 @@ public class HashMapTest {
 			int value = map.get(key);
 			System.out.println(value);
 		}
+		
 	}
 
 }

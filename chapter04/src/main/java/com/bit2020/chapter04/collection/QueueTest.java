@@ -17,9 +17,9 @@ public class QueueTest {
 			System.out.println(s);
 		}
 		
-		//비어 있는 경우, null를 리턴
+		// 비어 있는 경우, null를 리턴 
 		System.out.println(q.poll());
-		
+
 		q.offer("둘리");
 		q.offer("마이콜");
 		q.offer("또치");
@@ -27,6 +27,7 @@ public class QueueTest {
 		System.out.println(q.poll());
 		System.out.println(q.peek());
 		System.out.println(q.poll());
+		
 	}
 
 }
