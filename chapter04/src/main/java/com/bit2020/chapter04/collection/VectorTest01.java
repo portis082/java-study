@@ -28,8 +28,6 @@ public class VectorTest01 {
 			String s = e.nextElement();
 			System.out.println(s);
 		}
-		
-		
 	}
 
 }

@@ -1,10 +1,12 @@
 package com.bit2020.chapter04.collection;
+
 import java.util.Stack;
 
 public class StackTest {
 
 	public static void main(String[] args) {
 		Stack<String> s = new Stack<>();
+		
 		s.push("둘리");
 		s.push("마이콜");
 		s.push("또치");
@@ -15,7 +17,7 @@ public class StackTest {
 		}
 		
 		//비어 있는 경우, 예외 발생
-		//s.pop;
+		//s.pop();
 		
 		s.push("둘리");
 		s.push("마이콜");

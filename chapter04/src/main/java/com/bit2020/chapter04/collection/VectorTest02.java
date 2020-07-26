@@ -15,14 +15,15 @@ public class VectorTest02 {
 		
 		//순회1
 		int count = list.size();
-		for (int i = 0; i<count; i++) {
+		for(int i = 0; i < count; i++) {
 			String s = list.get(i);
 			System.out.println(s);
 		}
-		//삭제
+		
+		// 삭제
 		list.remove(1);
 		
-		//순회2
+		// 순회2
 		Iterator<String> it = list.iterator();
 		while(it.hasNext()) {
 			String s = it.next();
@@ -33,6 +34,7 @@ public class VectorTest02 {
 		for(String s : list) {
 			System.out.println(s);
 		}
+		
 	}
 
 }
